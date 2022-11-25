@@ -4,7 +4,7 @@ import {NavLink} from "react-router-dom";
 export const NavList = styled.ul`
   list-style-type: none;
   display:flex;
-  gap:20px;
+  gap:60px;
 `
 
 export const NavListItem = styled.li`
@@ -20,10 +20,10 @@ export const Link = styled(NavLink)`
   color: ${props => props.$barsolid ? "#5c768d" : "white"};
   
   &:hover {
-    color:#2ecc71;
+    color:#40bda6;
   }
   
   &.active {
-    color:#2ecc71;
+    color:#40bda6;
   }
 `

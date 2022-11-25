@@ -5,11 +5,11 @@ export const StyledButton = styled.input`
   color: #fff;
   border: 0;
   padding: 10px 15px !important;
-  height: 50px;
-  border-radius: 0;
   transition: .2s;
-  width:124px !important;
+  width:100%;
   font-family: "Open Sans", sans-serif;
+  border-radius: 15px;
+  font-weight: bold;
   
   &:hover {
     background: #069fe6;
