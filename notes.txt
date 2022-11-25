@@ -1,0 +1,21 @@
+React Hero Slider Component
+https://github.com/rmolinamir/hero-slider
+
+Scroll To Top Button
+https://www.geeksforgeeks.org/how-to-create-a-scroll-to-top-button-in-react-js/
+
+Animation Library
+https://www.framer.com/docs/scroll-animations/#scroll-triggered-animations
+
+Styling Library - Styled Components
+https://styled-components.com/
+
+
+Basic Layout:
+Header - sticky header
+PageContent -> Outlet
+Footer
+
+Components:
+Cards
+CardsIcon
