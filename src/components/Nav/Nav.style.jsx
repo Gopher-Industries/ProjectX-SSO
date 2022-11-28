@@ -1,10 +1,12 @@
 import styled from "styled-components";
 import {NavLink} from "react-router-dom";
 
+
 export const NavList = styled.ul`
   list-style-type: none;
   display:flex;
-  gap:60px;
+  gap:30px;
+  
 `
 
 export const NavListItem = styled.li`

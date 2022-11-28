@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {device} from "@Config/resp-styling.jsx";
 
 export const HeaderContainer = styled.div`
   position: sticky; top: 0;
@@ -19,6 +20,11 @@ export const InnerHeader = styled.div`
   display:flex;
   justify-content:space-between;
   align-items: center;
+  margin:0 20px;
+
+  @media ${device.mobile} {
+    padding:0 15px;
+  }
 `
 
 export const Logo = styled.img`
