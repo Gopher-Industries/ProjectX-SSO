@@ -7,6 +7,7 @@ import loadingGif from "@Assets/images/loading.gif";
 
 import {AnimatePresence} from "framer-motion";
 import axios from "axios";
+import configData from "@Config/config.json";
 
 const LoginForm = () => {
     const [isLoading, setIsLoading] = useState(false);
@@ -25,7 +26,7 @@ const LoginForm = () => {
             password: passwordRef.current.value
         }
 
-        axios.post(`#`, {user})
+        axios.post(configData.API_URL.BASE + configData.API_URL.USER, {user})
             .then(res => {
                 console.log(res);
             }).catch(error => {
