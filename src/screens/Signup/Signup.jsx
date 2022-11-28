@@ -2,6 +2,8 @@ import React from "react";
 import * as s from "./Signup.style"
 import homeLogo from "@Assets/images/square.png";
 
+import SignupForm from "@Components/SignupForm/SignupForm";
+
 const Signup = () => {
     return (
         <s.SignupContainer inital={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}} transition={{delay:0.3}}  >
@@ -15,6 +17,9 @@ const Signup = () => {
                 <s.SignupSubtitle>
                     Fill out the form below to get started!
                 </s.SignupSubtitle>
+                <s.SignupForm>
+                    <SignupForm />
+                </s.SignupForm>
             </s.SignupContent>
         </s.SignupContainer>
     );

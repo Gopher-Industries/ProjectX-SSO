@@ -32,3 +32,6 @@ export const SignupSubtitle = styled.div`
   font-family: "Open Sans", sans-serif;
   padding-top:15px;
 `
+export const SignupForm = styled.div`
+
+`
