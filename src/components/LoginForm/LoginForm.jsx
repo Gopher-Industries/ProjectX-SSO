@@ -32,6 +32,8 @@ const LoginForm = () => {
             }).catch(error => {
                 console.log(error.message);
         });
+
+
     }
 
     return (
